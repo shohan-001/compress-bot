@@ -3,9 +3,14 @@
     "description": "A telegram video encoder.",
     "logo": "https://telegra.ph/file/3ca32c39654a059500708.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
-    "repository": "https://github.com/Zylern/TGVid-Comp",
+    "repository": "https://github.com/shohan-001/compress-bot",
     "success_url": "",
     "stack": "container",
+    "formation": {
+        "worker": {
+            "quantity": 1
+        }
+    },
     "env": {
         "APP_ID": {
             "description": "You api id get it from my.telegram.org or @apiScrapperRoBot",
